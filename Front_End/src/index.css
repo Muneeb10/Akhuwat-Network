@@ -1,0 +1,26 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* In your global CSS file (e.g., App.css or index.css) */
+.Toastify__toast-container {
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  width: fit-content;
+}
+
+/* Apply styles to all success toasts */
+.Toastify__toast--success {
+  background: linear-gradient(to right, #029fae, #0891b2) !important; /* from-teal-500 to-cyan-600 */
+  color: white !important;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+
+/* Error Toast */
+.Toastify__toast--error {
+  background-color: #dc2626 !important; /* red-600 */
+  color: white !important;
+}
