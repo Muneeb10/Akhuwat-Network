@@ -45,7 +45,7 @@ const Header = () => {
     };
   }, []);
 
-  const whatsappLink = `https://wa.me/${import.meta.env.REACT_APP_PHONE_NUMBER}`;
+  const whatsappLink = `https://wa.me/${import.meta.env.VITE_PHONE_NUMBER}`;
 
   return (
     <header className={`fixed z-50 transition-all duration-500 bg-white rounded-xl py-2 ${isScrolled ? 'top-0' : 'top-5'} w-[95%] left-2 right-8 sm:left-15 sm:right-15 sm:w-auto shadow-lg`}>

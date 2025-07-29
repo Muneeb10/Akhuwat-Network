@@ -9,7 +9,7 @@ const Call_to_action = () => {
             Start your application today!
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href={`https://wa.me/${import.meta.env.REACT_APP_PHONE_NUMBER}`}  target="_blank" rel="noopener noreferrer">
+            <a href={`https://wa.me/${import.meta.env.VITE_PHONE_NUMBER}`}  target="_blank" rel="noopener noreferrer">
               <button className="px-8 py-4 bg-gradient-to-r from-[#029fae] to-[#027e8a] text-white font-semibold rounded-xl shadow-lg shadow-[#029fae]/30 hover:shadow-[#029fae]/50 transition-all duration-300 transform hover:-translate-y-1 hover:scale-[1.02]">
                 Apply Now
               </button>

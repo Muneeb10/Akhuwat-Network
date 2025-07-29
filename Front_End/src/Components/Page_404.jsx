@@ -27,9 +27,6 @@ const Page_404 = () => {
             </div>
           </div>
         </div>
-
-        {/* Optional background gradient overlays - removed for cleaner look */}
-        {/* Remove or style as needed */}
       </section>
     </>
   );

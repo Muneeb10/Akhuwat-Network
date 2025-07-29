@@ -187,7 +187,7 @@ const Form = () => {
                       'Send Message'
                     )}
                   </button>
-                  <a href={`https://wa.me/${import.meta.env.REACT_APP_PHONE_NUMBER}`} target="_blank" rel="noopener noreferrer"
+                  <a href={`https://wa.me/${import.meta.env.VITE_PHONE_NUMBER}`} target="_blank" rel="noopener noreferrer"
                     className="flex-1 flex items-center justify-center gap-2 px-6 py-3 border-2 border-teal-500 text-teal-500 font-medium rounded-lg hover:bg-gradient-to-r from-teal-500 to-cyan-600 hover:text-white transition-all shadow-sm hover:shadow-md">
                     <ChatBubbleLeftRightIcon className="w-5 h-5" />
                     WhatsApp Us

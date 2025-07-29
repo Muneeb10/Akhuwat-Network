@@ -49,7 +49,7 @@ const Eligibility = () => {
                     </div>
                 ))}
               </div>
-              <a href={`https://wa.me/${import.meta.env.REACT_APP_PHONE_NUMBER}`} target="_blank" rel="noopener noreferrer">
+              <a href={`https://wa.me/${import.meta.env.VITE_PHONE_NUMBER}`} target="_blank" rel="noopener noreferrer">
                 <button className="bg-[#029fae] hover:bg-[#02808d] text-white font-medium py-3 px-8 rounded-lg transition duration-300 shadow-md hover:shadow-lg">
                   Check Eligibility
                 </button>

@@ -16,7 +16,7 @@ const Card = ({ title, btnUrl, description, image, buttonText }) => {
           </div>
           {/* Action Button */}
           <div className="p-6 pt-3">
-            <a href={`https://wa.me/${import.meta.env.REACT_APP_PHONE_NUMBER}`} target="_blank" rel="noopener noreferrer">
+            <a href={`https://wa.me/${import.meta.env.VITE_PHONE_NUMBER}`} target="_blank" rel="noopener noreferrer">
               <button className="block w-[150px] rounded-lg bg-gradient-to-r from-teal-500 to-cyan-600 hover:from-teal-600 hover:to-cyan-700 text-white py-2 font-bold uppercase transition-all">
                 {buttonText}
               </button>
