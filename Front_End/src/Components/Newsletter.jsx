@@ -17,7 +17,7 @@ const Newsletter = () => {
     }
 
     try {
-      const response = await fetch(`${import.meta.env.VITE_SUBSCRIBE_API_URL}/subscribe`, {
+      const response = await fetch(`${import.meta.env.VITE_BASE_API_URL}/subscribe`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

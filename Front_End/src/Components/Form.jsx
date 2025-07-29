@@ -52,7 +52,7 @@ const Form = () => {
     if (validateForm()) {
       setLoading(true);
       try {
-        const response = await fetch(`${import.meta.env.VITE_FORM_API_URL}/api/form`, {
+        const response = await fetch(`${import.meta.env.VITE_BASE_API_URL}/api/form`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(formData)
