@@ -22,15 +22,15 @@ const About = () => {
               <div className="flex flex-col sm:flex-row items-center justify-center -mx-3 sm:-mx-4">
                 <div className="w-full sm:w-1/2 px-3 sm:px-4">
                   <div className="py-3 sm:py-4">
-                    <img src="https://cdn.tailgrids.com/assets/images/marketing/about/about-01/image-1.jpg" alt="" className="w-full rounded-2xl"/>
+                    <img src="https://akhuwat.org.pk/uploads/images/1748108389607-leader-khawar.png" alt="" className="w-full rounded-2xl"/>
                   </div>
                   <div className="py-3 sm:py-4">
-                    <img src="https://cdn.tailgrids.com/assets/images/marketing/about/about-01/image-2.jpg" alt="" className="w-full rounded-2xl"/>
+                    <img src="https://akhuwat.org.pk/uploads/images/1748108454953-leader-izhar.png" alt="" className="w-full rounded-2xl"/>
                   </div>
                 </div>
                 <div className="w-full sm:w-1/2 px-3 sm:px-4">
                   <div className="relative z-10 my-4">
-                    <img src="https://cdn.tailgrids.com/assets/images/marketing/about/about-01/image-3.jpg" alt="" className="w-full rounded-2xl"/>
+                    <img src="https://akhuwat.org.pk/uploads/images/1748108454953-leader-izhar.png" alt="" className="w-full rounded-2xl"/>
                   </div>
                 </div>
               </div>

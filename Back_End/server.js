@@ -7,12 +7,29 @@ const FormSubmission = require('./models/FormSubmission');
 const Subscriber = require('./models/Subscriber');
 
 const app = express();
+
 app.use(cors());
 app.use(express.json()); 
+
+
+
+const path = require('path');
+
+app.use(express.static(path.join(__dirname, 'frontend/build')));
+
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, 'frontend', 'build', 'index.html'));
+});
+
 
 mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log('MongoDB connected'))
   .catch(err => console.error(err));
+
+app.get('/', (req, res) => {
+  res.send('Server is running!');
+});
+
 
 app.post('/api/form', async (req, res) => {
   try {
@@ -51,6 +68,8 @@ app.post('/api/form', async (req, res) => {
 
 
 // POST route for newsletter subscription
+
+
 app.post('/subscribe', async (req, res) => {
   const { email } = req.body;
 

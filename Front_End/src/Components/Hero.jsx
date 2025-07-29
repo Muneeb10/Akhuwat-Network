@@ -1,4 +1,4 @@
-import hero_image from '../assets/hero-image.png';
+import hero_image from '../assets/hero_image.jpg';
 
 import {
   ChartBarIcon,
@@ -73,8 +73,8 @@ const Hero = () => {
           <div className="order-1 lg:order-2 flex justify-center">
             <div className="relative w-full flex justify-center">
               <div className="absolute -inset-4 rounded-3xl transform rotate-3 opacity-30"></div>
-              <div className="relative rounded-2xl overflow-hidden transform transition duration-500 hover:-translate-y-2">
-                <img src={hero_image} alt="Business professionals discussing financial strategy" className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-full h-auto max-h-[600px] object-cover"/>
+              <div className="relative p-10 rounded-2xl overflow-hidden transform transition duration-500 hover:-translate-y-2">
+                <img src={hero_image} alt="Business professionals discussing financial strategy" className="w-full rounded-xl max-w-xs sm:max-w-sm md:max-w-md lg:max-w-full h-auto max-h-[600px] object-cover"/>
               </div>
             </div>
           </div>
