@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation} from 'react-router-dom';
 
 import Header from './Components/Header.jsx';
 import HeroSection from './Components/Hero.jsx';
@@ -22,6 +22,7 @@ import ShareSuccessStory from './Components/Share_Success_Story.jsx';
 import ScrollToTop from './Components/ScrollToTop.jsx';
 import Loader from './Components/Loader.jsx';
 import Page_404 from './Components/Page_404.jsx'
+
 
 function MainPage() {
   return (
@@ -70,6 +71,21 @@ function MainPage() {
   );
 }
 
+
+
+const TrackPageViews = ({ children }) => {
+  const location = useLocation();
+  
+  useEffect(() => {
+    window.gtag?.('config', 'AW-17408747407', {
+      page_path: location.pathname + location.search,
+      page_title: document.title
+    });
+  }, [location]);
+
+  return children;
+};
+
 function App() {
   const [loading, setLoading] = useState(true);
 
@@ -82,10 +98,12 @@ function App() {
 
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<MainPage />} />
-        <Route path="*" element={<Page_404 />} />
-      </Routes>
+      <TrackPageViews>
+         <Routes>
+           <Route path="/" element={<MainPage />} />
+           <Route path="*" element={<Page_404 />} />
+         </Routes>
+      </TrackPageViews>
     </Router>
   );
 }

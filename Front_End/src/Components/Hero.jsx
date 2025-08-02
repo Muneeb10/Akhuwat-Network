@@ -1,4 +1,4 @@
-import hero_image from '../assets/hero_image.jpg';
+import hero_image from '../assets/hero_image.jpeg';
 
 import {
   ChartBarIcon,

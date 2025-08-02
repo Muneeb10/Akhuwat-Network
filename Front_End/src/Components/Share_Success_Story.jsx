@@ -13,7 +13,7 @@ const ShareSuccessStory = () => {
             Share Your <span className="text-teal-600">Success</span> Story
           </h2>
           <p className="text-base sm:text-lg px-2 sm:px-6 md:px-10 text-gray-600 max-w-2xl mx-auto">
-            Have you been helped by Akhuwat? We would love to hear your story and inspire others in their journey towards financial independence.
+            Have you been helped by Alkhidmat Foundation? We would love to hear your story and inspire others in their journey towards financial independence.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center mt-8 gap-4">
             <a href={`https://wa.me/${import.meta.env.VITE_PHONE_NUMBER}`} target="_blank" rel="noopener noreferrer">

@@ -30,7 +30,7 @@ const About = () => {
                 </div>
                 <div className="w-full sm:w-1/2 px-3 sm:px-4">
                   <div className="relative z-10 my-4">
-                    <img src="https://akhuwat.org.pk/uploads/images/1748108454953-leader-izhar.png" alt="" className="w-full rounded-2xl"/>
+                    <img src="https://akhuwat.org/wp-content/uploads/2024/04/dfsdf-150x150.jpg" alt="" className="w-full rounded-2xl"/>
                   </div>
                 </div>
               </div>
@@ -41,7 +41,7 @@ const About = () => {
               <div className="mt-10 lg:mt-0">
                 <span className="block mb-4 text-lg font-semibold text-[#029fae]">Our Story</span>
                 <p className="mb-5 text-base text-body-color dark:text-dark-6 text-justify">
-                  Akhuwat Foundation was established with a simple yet powerful vision: to eliminate poverty through interest-free microfinance
+                  Alkhidmat Foundation was established with a simple yet powerful vision: to eliminate poverty through interest-free microfinance
                   based on the Islamic principle of Qard-e-Hasna (benevolent loan). What started as a small initiative has grown into Pakistan's largest
                   microfinance institution.
                 </p>

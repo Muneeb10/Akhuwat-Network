@@ -4,16 +4,16 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   
   const quickLinks = [
-    { link_1: 'Our Story',  link_2: "Akhuwat Microfinance", link_3: "Apply for Loan"},
-    { link_1: 'Mission & Vision', link_2: "Akhuwat Health", link_3: "Contact Us"},
-    { link_1: 'Leadership Team', link_2: "Akhuwat Education", link_3: "Branch Locator"},
-    { link_1: 'Awards & Recognition', link_2: "Akhuwat Relief", link_3: "FAQs"},
+    { link_1: 'Our Story',  link_2: "Alkhidmat Microfinance", link_3: "Apply for Loan"},
+    { link_1: 'Mission & Vision', link_2: "Alkhidmat Health", link_3: "Contact Us"},
+    { link_1: 'Leadership Team', link_2: "Alkhidmat Education", link_3: "Branch Locator"},
+    { link_1: 'Awards & Recognition', link_2: "Alkhidmat Relief", link_3: "FAQs"},
     { link_1: 'Annual Reports', link_2: "Women Empowerment", link_3: "Help Center"},
   ];
 
   const contactInfo = [
     { icon: <MapPinIcon className="w-6 h-6 text-teal-500" />, text: 'New Shehbaz Building Thandi Sadak Hydrabad' },
-    { icon: <EnvelopeIcon className="w-6 h-6 text-teal-500" />, text: 'Info@akhuwatnetwork.online' },
+    { icon: <EnvelopeIcon className="w-6 h-6 text-teal-500" />, text: 'Info@alkhidmatfoundation.online' },
     { icon: <PhoneIcon className="w-6 h-6 text-teal-500" />, text: '+92 3354571620' }
   ];
 
@@ -30,7 +30,7 @@ const Footer = () => {
                 <span className="text-white text-xl font-bold">A</span>
               </div>
               <div>
-                <h1 className="text-xl font-bold text-gray-900">Akhuwat Network</h1>
+                <h1 className="text-xl font-bold text-gray-900">Alkhidmat Foundation</h1>
                 <p className="text-xs text-gray-500">Interest-Free Microfinance</p>
               </div>
             </div>
@@ -127,7 +127,7 @@ const Footer = () => {
         {/* Bottom section */}
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm flex items-center">
-            &copy; {currentYear} Akhuwat Foundation. All rights reserved.
+            &copy; {currentYear} Alkhidmat Foundation. All rights reserved.
             <span className="hidden sm:inline"> Made with </span>
             <HeartIcon className="w-4 h-4 text-pink-500 mx-1" /> 
             for humanity

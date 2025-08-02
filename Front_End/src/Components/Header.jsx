@@ -56,7 +56,7 @@ const Header = () => {
               <span className="text-white text-xl font-bold">A</span>
             </div>
             <div>
-              <h1 className="text-xl font-bold text-gray-900">Akhuwat Network</h1>
+              <h1 className="text-xl font-bold text-gray-900">Alkhidmat Foundation</h1>
               <p className="text-xs text-gray-500">Interest-Free Microfinance</p>
             </div>
           </div>
